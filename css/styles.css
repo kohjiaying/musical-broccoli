@@ -6,7 +6,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #98673c;
+  background-color: #94522D;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -14,17 +14,23 @@
 
 /* The navigation menu links */
 #closemenu {
-  padding: 8px 8px 8px 32px;
+  padding: 12px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 16px;
+  color: #94522D;
+  background-color: #FFE8D8; 
   display: block;
   transition: 0.3s;
 }
 
+#closemenu:hover{
+  color: #FFE8D8;
+  background-color: #94522D;
+}
+
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  background-color: #D2B48C; 
+.sidenav a:not(#closemenu):hover {
+  background-color: #F4D5B2; 
 }
 
 /* Position and style the close button (top right corner) */
@@ -39,7 +45,6 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
-  padding-top: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -50,17 +55,19 @@
 
 /* Style buttons */
 #mySidenavbtn {
-  background-color: #D2B48C; 
+  background-color: #FFE8D8; 
   border: none; /* Remove borders */
-  color: #ffffff; /* White text */
+  color: #94522D; /* White text */
   padding: 12px 16px; /* Some padding */
   font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
+  position: fixed
 }
 
 /* Darker background on mouse-over */
 #mySidenavbtn:hover {
-  background-color: #98673c;
+  background-color: #94522D;
+  color: #FFE8D8; 
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -79,12 +86,12 @@
 }
 
 .dropdown-btn {
-	background-color: #98673c;
+	background-color: #94522D;
 }
 
 /* On mouse-over */
 .dropdown-btn:hover {
-  background-color: #D2B48C;
+  background-color: #F4D5B2;
 }
 
 /* Add an active class to the active dropdown button */
@@ -96,13 +103,13 @@
 
 .dropdown-container {
   display: none;
-  background-color: #D2B48C;
+  background-color: #F4D5B2;
   padding-left: 8px;
 }
 
 .dropdown-container a:hover {
   display: none;
-  background-color: #98673c;
+  background-color: #94522D;
   padding-left: 8px;
 }
 
@@ -115,7 +122,7 @@
 /* Brown half of homepage */
 .brownhalf {
   padding: 25px;
-  background-color: #D2B48C;
+  background-color: #FAD082;
   text-align: center;
 }
 
