@@ -1,0 +1,3 @@
+node_modules
+
+#So this is to ensure that when you do a gitcommit, the node_modules folder will not be committed.
