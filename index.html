@@ -5,12 +5,9 @@
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link href="css/styles.css" rel="stylesheet">
 
 </head>
@@ -44,19 +41,28 @@
 	<!-- Element to open the sidenav -->
 	<button id="mySidenavbtn" onclick="openNav()"><i class="fa fa-bars"></i> Menu</button>
 	
-	<div id='main' class="container-fluid">
+	<div id='main'>
 	<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-	<div id="welcome" class="container-fluid">
-	  <div class="row frame">
-		<div  class="left col brownhalf">
-		  <h3>Column 1</h3>
-		  <p>Lorem ipsum dolor..</p>
-		</div>
-		<div class="right col whitehalf">
-		  <h3>Column 2</h3>
-		  <p>Lorem ipsum dolor..</p>
-		</div>
+	<div class="row">
+	
+	  <div class="col-6 brownhalf">
+		<h2>What?</h2>
+		  <p>Chania is a city on the island of Crete.</p>
+		  <h2>Where?</h2>
+		  <p>Crete is a Greek island in the Mediterranean Sea.</p>
+		  <h2>How?</h2>
+		  <p>You can reach Chania airport from all over Europe.</p>
 	  </div>
+
+	  <div class="col-6 right whitehalf">
+		  <h2>What?</h2>
+		  <p>Chania is a city on the island of Crete.</p>
+		  <h2>Where?</h2>
+		  <p>Crete is a Greek island in the Mediterranean Sea.</p>
+		  <h2>How?</h2>
+		  <p>You can reach Chania airport from all over Europe.</p>
+	  </div>
+	  
 	</div>
 	
 	</div>
@@ -64,7 +70,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
