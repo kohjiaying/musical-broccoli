@@ -39,7 +39,7 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -114,18 +114,22 @@
 
 /* Brown half of homepage */
 .brownhalf {
+  padding: 25px;
   background-color: #D2B48C;
+  text-align: center;
+}
+
+.whitehalf {
+  padding: 25px;
+  background-color: #FFFFFF;
+  text-align: center;
 }
 
 .frame {
-    background-color: lightgreen;
     width: 100%;
-    padding: 12px;
     overflow: auto;
 }
 .left {
-    background-color: #709670;
-    border: 1px solid black;
     display: table-cell;
 }
 .left .color-wrap {
@@ -136,9 +140,6 @@
     vertical-align: top;
 }
 .right .color-wrap {
-    background-color: #127212;
-    color: white;
-    border: 1px solid black;
     display: inline-block;
 }
 
